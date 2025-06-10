@@ -1,7 +1,6 @@
 
 
-
-   ####      LATEST UPDATE: JANUARY 30th 2025      ######
+   ####      LATEST UPDATE: June 9th 2025      ######
 
 
 
@@ -55,11 +54,19 @@ sudo apt install input-remapper -y
 
 # Android Phone notifications / controller on PC
     # sudo apt-get install kdeconnect -y
-# Note: Resource heavy, but nice to have for some people
+# Note: RAM heavy, but nice to have for some people
 
 #📦 Clam Antivirus
     # flatpak install flathub com.gitlab.davem.ClamTk
 # Note: Only reccomended if you REALLY want an antivirus, as it MAY break steam installs
+
+# Human Readable Table of Processes
+sudo apt install htop -y
+
+# Allows for easy changing power profiles like on Windows
+sudo apt install power-profiles-daemon
+# Note: Also Recommended:
+    # powerprofilesctl set performance
 
 ################################################################################################
 
@@ -87,14 +94,15 @@ flatpak install flathub com.heroicgameslauncher.hgl -y
 # Note: >DOES NOT< support Fortnite, only use this for the free games.
 
 # Wayland Android Emulator (⚠️ Requires Wayland Compatable DE)
-    #sudo apt install curl ca-certificates -y
-    #curl -s https://repo.waydro.id | sudo bash
-    #sudo apt install waydroid -y
-# Note: Only install if you want to run >ROBLOX< or other android apps
+    # sudo apt install curl ca-certificates -y
+    # curl -s https://repo.waydro.id | sudo bash
+    # sudo apt install waydroid -y
+# Note: Only install if you want to run >ROBLOX< or other android apps (NOT FORTNITE)
 # Note: How to launch Wayland on Mint: https://youtu.be/i_x_awncu1c?si=qKaukT69-Tico2kY&t=25
 
 # Updated Roblox installer
 flatpak install --user https://sober.vinegarhq.org/sober.flatpakref
+# Note: Run using: flatpak run org.vinegarhq.Sober
 
 ################################################################################################
 
@@ -131,8 +139,6 @@ flatpak install -y flathub com.google.Chrome
 # Pipewire Volume Mixer (⚠️ Requires Pipewire & ❗ Highly Recommended if using Pipewire Audio)
     # sudo apt install pavucontrol
 
-
-
 #❗Android "Samsung DeX" Linux Replacement (Android screen clone)
 sudo apt install ffmpeg libsdl2-2.0-0 adb wget \ -y
 gcc git pkg-config meson ninja-build libsdl2-dev \ 
@@ -142,8 +148,6 @@ git clone https://github.com/Genymobile/scrcpy -y
 cd scrcpy
 ./install_release.sh
 cd ~
-# OR:
-    # sudo apt-get install scrcpy
 # Updater:
 git pull
 ./install_release.sh
@@ -154,10 +158,11 @@ git pull
 # Note: >>WORKS WITH ANY ANDROID PHONE<<, but requires developer mode, USB debugging, and must be tethered via USB to PC before launch
 # Note: Use ALT + F4, ALT + TAB, or "xkill" to close
 
-
-
 #📦 Python Interpreter
     # flatpak install org.thonny.Thonny
+    
+#📦 DVD to Video converter
+    # flatpak install flathub com.makemkv.MakeMKV
 
 ################################################################################################
 
@@ -170,6 +175,13 @@ sudo apt remove --purge libreoffice-core -y
 sudo apt remove --purge libreoffice-common -y
 sudo apt remove --purge hexchat -y
 sudo apt remove --purge celluloid -y
+sudo apt remove --purge hypnotix -y
+sudo apt remove --purge webapp-manager -y
+sudo apt remove --purge mintchat -y
+sudo apt remove --purge warpinator -y
+sudo apt remove --purge transmission-gtk -y
+sudo apt remove --purge seahorse -y
+sudo apt remove --purge imagemagick -y
 
 sudo apt autoremove -y 
 sudo apt autopurge -y
@@ -181,5 +193,4 @@ sudo apt clean -y
 
 
 echo "Don't forget to restart your PC now."
-
 
