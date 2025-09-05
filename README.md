@@ -10,6 +10,9 @@ Installs commonly used apps for Linux, with a primary focus on gaming apps, and 
 
 - Installs everything regardless of what user actually wants.
 
+## Created for
+
+N/A
 
 ## Copyright
 
