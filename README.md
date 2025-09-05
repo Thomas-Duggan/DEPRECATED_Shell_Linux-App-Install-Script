@@ -1,5 +1,7 @@
-## Note
-"Linux Fixes & Tricks.pdf" is not required for running script, but does contain useful information for Linux users.
+## Notes
+
+- This project is superceded by "Simplified Linux Utilities and Toolbox".
+- "Linux Fixes & Tricks.pdf" is not required for running script, but does contain useful information for Linux users.
 
 ## Purpose
 
@@ -9,10 +11,12 @@ Installs commonly used apps for Linux, with a primary focus on gaming apps, and 
 ## Issues
 
 - Installs everything regardless of what user actually wants.
+  
 
 ## Created for
 
 N/A
+
 
 ## Copyright
 
