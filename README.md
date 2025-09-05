@@ -1,4 +1,4 @@
-# [Depricated; New Version Coming Soon]()
+# [Updated Version Coming Soon]()
 
 
 ## Notes
