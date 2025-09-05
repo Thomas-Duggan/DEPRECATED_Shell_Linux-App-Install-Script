@@ -1,6 +1,8 @@
+# [Depricated; New Version Coming Soon]()
+
+
 ## Notes
 
-- This project is superceded by "Simplified Linux Utilities and Toolbox".
 - "Linux Fixes & Tricks.pdf" is not required for running script, but does contain useful information for Linux users.
 
 ## Purpose
